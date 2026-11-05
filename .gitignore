@@ -1,0 +1,12 @@
+node_modules/
+*.db
+*.db-wal
+*.db-shm
+saidas/
+*.pdf
+*.xlsx
+*.xls
+*.csv
+.env
+npm-debug.log*
+.DS_Store

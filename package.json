@@ -1,0 +1,41 @@
+{
+  "name": "sistema-notas-alunos",
+  "version": "1.0.0",
+  "description": "API Express de notas de alunos: JWT, SQLite, média ponderada em SQL, boletim da turma em Excel (ExcelJS) e do aluno em PDF (PDFKit), importação por planilha (SheetJS).",
+  "type": "module",
+  "main": "src/app.js",
+  "scripts": {
+    "start": "node src/server.js",
+    "dev": "node --watch src/server.js",
+    "exemplo": "node scripts/gerar-exemplo.js",
+    "test": "node --test"
+  },
+  "engines": {
+    "node": ">=20"
+  },
+  "keywords": [
+    "express",
+    "jwt",
+    "sqlite",
+    "better-sqlite3",
+    "exceljs",
+    "pdfkit",
+    "sheetjs",
+    "notas",
+    "boletim"
+  ],
+  "author": "sidsidoso",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sidsidoso/sistema-notas-alunos.git"
+  },
+  "dependencies": {
+    "better-sqlite3": "^12.11.1",
+    "exceljs": "4.4.0",
+    "express": "^5.3.0",
+    "jsonwebtoken": "^9.0.3",
+    "pdfkit": "^0.20.2",
+    "xlsx": "https://cdn.sheetjs.com/xlsx-0.20.3/xlsx-0.20.3.tgz"
+  }
+}
